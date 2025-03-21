@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url( https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=1536,469;);
+    background-color: #eaeaea;
+    background-size: cover;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#header{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(249, 249, 252);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 70%;
+}
+
+#logo image{
+    height: 50%;
+    width:50%;
+    object-fit: cover;
+}
+.texts{
+    color: rgba(13, 17, 228, 0.979);
+    display: flex;
+}
+
+.texts:hover{
+    color: rgba(63, 2, 104, 0.671);
+}
+
+#contectDetails{
+    font-weight: lighter;
+}
+
+.icons{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+    background-color: rgb(3, 135, 179);
+}
+#login{
+    padding: 10px;
+    border-radius: 50px;
+    display: flex
+    
+    
+}
+#login:hover{
+    background-color: rgb(3, 87, 116);
+
+}
+
+#try{
+    background-color: rgb(4, 207, 31);
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: darkgreen;
+     
+}
+#fakeHeader{
+    height: 13%;
+    width: 100%;
+
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: rgb(252, 248, 248);
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color:darkblue;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip u{
+     margin: 20px;
+     font-weight:lighter;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    background-color: white;
+    display: flex;
+}
+#box1{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+}
+
+#box2{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+}
+#box2 img{
+    margin: 20px;
+    margin-left: 50%;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#box1 h1{
+    font-weight: 500;
+    color: rgb(0, 0, 94);
+    font-size: 50px;
+    margin: 30px 30px;
+}
+#box1 p{
+    font-size: x-large;
+    margin: 30px 30px;
+    font-weight: lighter;
+}
+
+
+#btns{
+    display: flex;
+
+}
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(10, 118, 155);
+    border-radius: 10px;
+}
+#btn1:hover{
+    background-color:rgb(1, 65, 87);
+}
+
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(10, 118, 155);
+    border: 1px solid rgb(0, 129, 172);
+    border-radius: 10px;
+}
+#btn2:hover{
+    background-color: lightblue;
+    color:rgb(0, 68, 90);
+    border-color:rgb(0, 68, 90) ;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+}
+
+#cards{
+    display: flex;
+}
+#card1{
+    height: 320px;
+    width: 280px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+#rect1{
+    margin-top: 25px;
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+#rect1:hover{
+   color: purple;
+}
+
+#card2{
+    height: 320px;
+    width: 280px;
+    border-radius: 15px;
+   border: 1px solid black;
+   margin-left: 33px ;
+   margin-top: 10px;
+}
+#rect2{
+    margin-top: 25px;
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+#rect2:hover{
+    color: purple;
+ }
+#card3{
+    height: 320px;
+    width: 280px;
+    border-radius: 15px;
+   border: 1px  solid black;
+   margin-left: 33px;
+   margin-top: 10px;
+}
+
+#rect3{
+    margin-top: 25px;
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+#rect3:hover{
+    color: purple;
+ }
+#card4{
+    height: 320px;
+    width: 280px;
+    border-radius: 15px;
+   border: 1px  solid black;
+   margin-left: 33px;
+   margin-top: 10px;
+}
+#rect4{
+    margin-top: 25px;
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+
+#rect4:hover{
+    color: purple;
+ }
+#page2 img{
+    height:auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#page2 h4{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(17, 0, 116);
+
+}
+#page2 p{
+    margin-left: 20px;
+    font-weight: 100;
+
+}
+#button{
+    text-align: center;
+    width: 200px;
+    padding: 15px 0;
+    color: rgb(10, 118, 155);
+    border: 2px solid rgb(0, 129, 172);
+    cursor: pointer;
+    font-weight: 600;
+    display: block;
+    margin: 70px auto;
+}
+#button:hover{
+    background-color: lightblue;
+    color:rgb(0, 68, 90);
+    border-color:rgb(0, 68, 90) ;
+}
+
